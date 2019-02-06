@@ -1,0 +1,58 @@
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+	font-family:courier;
+
+}
+*{
+	box-sizing:border-box;
+}
+h1{
+	margin:20px 0 0 20px;
+	font-size:30px;
+	color:black;
+	position:fixed;
+	float:left;
+	  background: transparent;
+
+	
+	
+
+}
+
+body { 
+  background: url("1.jpg")fixed; /* url("02.jpg") fixed center */; 
+	background-size: 380px 250px;	
+
+
+
+}
+
+
+
+
+
+.sample2 {
+
+  padding: 5px;
+  background: black;
+  background-clip: padding-box;
+/* 
+  position:fixed;
+ */
+  color:white;
+  float:left;
+  font-size:20px;
+  margin:100px 600px 0 20px;
+
+  
+}
+
+#clip{
+	
+}
+
+#blend{
+	
+}
