@@ -1,0 +1,808 @@
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+			background-color:black;
+
+}
+*{
+	box-sizing:border-box;
+}
+
+
+
+
+body{
+		background-color:black;
+		
+	
+	
+	}
+	.still{
+		position:fixed;
+
+}
+	
+	#square{
+	width:5vh;
+	height:5vh;
+	left:25vh;
+	top:10vh;
+		background-color:white;
+	}
+	
+	#sq{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:25vh;
+	top:20vh;
+
+	}
+	#sqw{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:25vh;
+	top:25vh;
+
+	}
+		#sqw2{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:25vh;
+	top:30vh;
+
+	}	
+	
+	#sqw3{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:40vh;
+	top:85vh;
+
+	}	
+	
+	#sqw4{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:25vh;
+	top:60vh;
+
+	}
+		
+		
+		#sqw5{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:25vh;
+	top:65vh;
+
+	}	
+	
+	#sqw6{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:25vh;
+	top:70vh;
+
+	}	
+	
+	
+	
+	#sqw7{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:25vh;
+	top:75vh;
+
+	}	
+	
+	#sqw8{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:30vh;
+	top:80vh;
+
+	}	
+	
+	#sqw9{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:35vh;
+	top:85vh;
+
+	}	
+	
+		#sqw10{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:30vh;
+	top:35vh;
+
+	}	
+
+	#sq1{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:35vh;
+	top:10vh;
+
+	}	
+	
+	#sq2{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:40vh;
+	top:10vh;
+
+	}
+		
+	#sq3{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:45vh;
+	top:10vh;
+
+	}
+	#sq4{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:55vh;
+	top:10vh;
+
+	}
+	#sq5{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:60vh;
+	top:10vh;
+
+	}
+	#sq6{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:65vh;
+	top:15vh;
+
+	}
+	#sq7{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:20vh;
+
+	}
+		#sq8{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:35vh;
+	top:65vh;
+
+	}
+	#sq9{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:35vh;
+	top:70vh;
+
+	}
+	#sq10{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:35vh;
+	top:85vh;
+
+	}
+	
+	
+	
+	
+	#as{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:25vh;
+
+	}
+	
+		#as1{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:30vh;
+
+	}
+	#as2{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:35vh;
+
+	}
+	#as3{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:35vh;
+	top:20vh;
+
+	}
+	#as4{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:35vh;
+	top:25vh;
+
+	}
+	#as5{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:35vh;
+	top:40vh;
+
+	}
+	
+	
+	
+	
+	
+	#as6{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:20vh;
+
+	}
+	#as7{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:40vh;
+	top:20vh;
+
+	}
+	#as8{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:45vh;
+	top:20vh;
+
+	}
+	#as9{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:50vh;
+	top:20vh;
+
+	}
+	#as10{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:55vh;
+	top:20vh;
+
+	}
+	
+	
+	
+	
+		#er{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:55vh;
+	top:25vh;
+
+	}
+	
+			#er0{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:60vh;
+	top:25vh;
+
+	}
+	
+	
+	
+
+
+		#er1{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:60vh;
+	top:30vh;
+
+	}
+
+		#er2{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:40vh;
+	top:30vh;
+
+	}
+		#er3{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:45vh;
+	top:35vh;
+
+	}
+		#er4{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:50vh;
+	top:40vh;
+
+	}
+		#er5{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:55vh;
+	top:45vh;
+
+	}
+		#er6{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:60vh;
+	top:50vh;
+
+	}
+		#er7{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:65vh;
+	top:55vh;
+
+	}
+		#er8{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:60vh;
+
+	}
+	
+	
+	
+		#er9{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:40vh;
+	top:45vh;
+
+	}
+		#er10{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:45vh;
+	top:50vh;
+
+	}
+
+		#er11{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:50vh;
+	top:55vh;
+
+	}
+	
+	
+	
+	
+	
+			#er12{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:55vh;
+	top:60vh;
+
+	}
+		#er13{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:60vh;
+	top:65vh;
+
+	}
+		#er14{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:60vh;
+	top:70vh;
+
+	}
+		#er15{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:40vh;
+	top:70vh;
+
+	}
+		#er16{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:40vh;
+	top:75vh;
+
+	}
+		#er17{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:45vh;
+	top:75vh;
+
+	}
+		#er18{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:50vh;
+	top:75vh;
+
+	}
+		#er19{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:55vh;
+	top:75vh;
+
+	}
+		#er111{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:60vh;
+	top:75vh;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		#aer{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:50vh;
+	top:85vh;
+
+	}
+	
+			#aer0{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:55vh;
+	top:85vh;
+
+	}
+	
+	
+	
+
+
+		#aer1{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:60vh;
+	top:85vh;
+
+	}
+
+		#aer2{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:65vh;
+
+	}
+		#aer3{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:70vh;
+
+	}
+		#aer4{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:75vh;
+
+	}
+		#aer5{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:85vh;
+
+	}
+		#aer6{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:115vh;
+	top:95vh;
+
+	}
+		#aer7{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:110vh;
+	top:90vh;
+
+	}
+		#aer8{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:105vh;
+	top:85vh;
+
+	}
+	
+	
+	
+	
+		#aer9{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:85vh;
+	top:85vh;
+
+	}
+		#aer10{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:90vh;
+	top:85vh;
+
+	}
+
+		#aer11{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:95vh;
+	top:85vh;
+
+	}
+	
+	
+	
+	
+	
+			#aer12{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:70vh;
+	top:95vh;
+
+	}
+		#aer13{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:75vh;
+	top:25vh;
+
+	}
+		#aer14{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:30vh;
+
+	}
+	
+	
+	
+	
+	
+	
+	
+		#aer15{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:95vh;
+
+	}
+		#aer16{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:85vh;
+	top:95vh;
+
+	}
+		#aer17{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:90vh;
+	top:95vh;
+
+	}
+		#aer18{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:95vh;
+	top:95vh;
+
+	}
+		#aer19{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:100vh;
+	top:95vh;
+
+	}
+		#aer111{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:105vh;
+	top:95vh;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+	#asq1{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:40vh;
+
+	}	
+	
+	#asq2{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:45vh;
+
+	}
+		
+	#asq3{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:50vh;
+
+	}
+	#asq4{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:55vh;
+
+	}
+	#asq5{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:60vh;
+
+	}
+	#asq6{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:65vh;
+
+	}
+	#asq7{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:70vh;
+
+	}
+		#asq8{
+	width:5vh;
+	height:5vh;
+	background-color:white;
+	left:80vh;
+	top:75vh;
+
+	}
+
+
+
+
+
+
+
