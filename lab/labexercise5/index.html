@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>stephanie lin</title>
+					<link rel="stylesheet" type="text/css" href="style.css"/>
+	<style>
+	
+	 a { color: #BC8F8F; }
+	</style>
+	</head>
+<body>
+
+	<br>window.addEventListener('load', function(e) { <strong>// attaches an event handler to the window object, in this case, its to load the following functions.</br></strong>
+	<br>	var appleGrid = document.getElementById('apple-grid');<strong>// to access an HTML element using the id of the element.</strong>
+		<br>var appleList = document.getElementById('apple-list');
+		<br>	var appleThumbs = document.getElementById('apple-thumbs');
+		<br>var gridApples = document.querySelectorAll('.apple');<strong>// returns all elements in the document that matches a specified CSS selector(s), as a static NodeList object. The NodeList object represents a collection of nodes. The nodes can be accessed by index numbers. The index starts at 0.</strong>
+		<br>
+		<br>	gridApples.forEach((gridApple, i) => {
+			<br>		gridApple.addEventListener('click', pickApple);<strong>//same thing becasue its also addEventListener, but this time it actives it when on click.</br></strong>
+			<br>	});
+		<br>
+		<br>function pickApple(e) {
+			<br>	var apple = e.target;<strong>//the target event property returns the element that triggered the event.</br></strong>
+			<br>	var appleName = apple.dataset.apple.toString();<strong>//representing apple and appleName as a string</br></strong>
+			<br>
+			<br>	var appleListItem = document.createElement('li');<strong>//creates appleListItem with name "list"</br></strong>
+			<br>
+			<br>	var ol = appleList.querySelector('ol');<strong>//returns appleList that matches a specified CSS selector, "ol"</br> </strong>
+			<br>	ol.appendChild(appleListItem);<strong>//adds appleListItem to ol.appendChild</br></strong>
+			<br>	appleListItem.innerText = appleName;
+	
+			<br>	var appleThumb = apple.cloneNode(true);<strong>//clones appleThumb.</strong><br>
+			<br>	appleThumbs.appendChild(appleThumb);<strong>//adds appleThumbs to appendChild</strong></br>
+			<br>
+		}
+		<br>
+	});	
+	
+	</body>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
