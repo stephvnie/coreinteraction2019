@@ -1,60 +1,151 @@
-$(document).ready(function(){
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/JavaScript" src="index.js"></script>
+	
 
-    var width = $(document).width() - 100;
-    var height = $(document).height() - 100;
-
-    var txt = "whats goood"
-
-    var colors = ['SteelBlue','DeepSkyBlue','LightSteelBlue','MidnightBlue','RoyalBlue','PowderBlue','MediumBlue','LightBlue','skyblue','Navy','LightSkyBlue'];
-    var BGcolor = ['rgb(116, 106, 82)','olivedrab','dimgrey','cadetblue'];
-
-
-    $(".welcome").text(txt);
-
-
-
-// console.log($(".circle"))
-
-    var shapes = [$(".circle"), $(".triangle"), $(".square"),$(".evian"),$(".evian1"),$(".evian2"),$(".evian3")]
-
-
-    setInterval( function randomStuff(){
-    var randomShape = shapes[ Math.floor( Math.random() * shapes.length ) ]
-    var clone = randomShape.clone().appendTo('body');
-
-    // console.log(clone)
-    clone.last().css( 'left', Math.random() * width )
-    clone.last().css( 'top', Math.random() * height )
-    },800);
-
-   
-
-
-
-    setInterval(function(){ 
-
-           
+    <title>0423_2.0</title>
     
-           var randomColor = Math.floor(Math.random() * colors.length) ;
-           var randomBGcolor = Math.floor(Math.random() * BGcolor.length) ;
+	<style>
 
-    
-           $(".welcome").css("color",colors[randomColor]);     
-           $("body").css("background-color",BGcolor[randomBGcolor]);     
+        body{
+            margin:0;
+            padding:0;
+            background-color: rgb(116, 106, 82);
+        }
 
-    
-    
-    
+        .circle{
+            width:100px;
+            height:auto;
+            color: rgb(220, 92, 184);
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.995), 0 0 15px rgb(160, 14, 222);
+            position:fixed;
+            top:-100px;
+            left:-40px;
+            font-size:10px;
+        
+        }
 
-    }, 200);
-    
+        .square{
+            width:auto;
+            height:100px;
+            color: rgb(255, 255, 255);
+            position:fixed;
+            top:-110px;
+            left:-110px;
+            line-height: 2em;
+            font-size: 1vw;
+
+
+        }
+
+     
+
+        .triangle{
+            width:0;
+            height:0;
+            border-left:25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom:50px solid rgb(22, 213, 108);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.995), 0 0 15px rgb(8, 128, 62);
+             position:fixed;
+            top:-250px;
+            left:-180px;
+            opacity: 0.3;
+
+        }
+
+        .evian{
+            width:0;
+            height:0;
+            border-left:7px solid transparent;
+            border-right:7px solid transparent;
+            border-top:14px solid rgb(49, 85, 230);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.995), 0 0 15px rgb(8, 128, 62);
+             position:fixed;
+            top:-250px;
+            left:-180px;
+            opacity: 0.5;
+
+        }
+
+        .evian1{
+            width:0;
+            height:0;
+            border-left:7px solid transparent;
+            border-right:7px solid transparent;
+            border-top:14px solid rgb(249, 174, 13);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.995), 0 0 15px rgb(8, 128, 62);
+             position:fixed;
+            top:-250px;
+            left:-180px;
+            opacity: 0.7;
+
+        }
+
+        .evian2{
+            width:0;
+            height:0;
+            border-left:7px solid transparent;
+            border-right:7px solid transparent;
+            border-top:14px solid rgb(249, 13, 88);
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.995), 0 0 15px rgb(8, 128, 62);
+            position:fixed;
+            top:-250px;
+            left:-180px;
+            opacity: 0.7;
+
+        }
+
+        .evian3{
+            width:0;
+            height:0;
+            border-left:7px solid transparent;
+            border-right:7px solid transparent;
+            border-top:14px solid rgb(170, 13, 249);
+            position:fixed;
+            top:-250px;
+            left:-180px;
+
+        }
+
+
+
+
+        .welcome{
+            font-size:22vw;
+            color:white;
+            position:fixed;
+            text-shadow: 0 0 30px rgba(255, 255, 255, 0.995), 0 0 15px rgb(55, 0, 255);
+            margin: 0vw 0 0 10vw;
+            text-align: center;
+
+        }
+
+
+</style>
+
+
+
+<body>
+
+<div class="circle">04-23-2019</div>
+<div class="square">we love the Earth, it is our planet<br>we love the Earth, it is our home</div>
+<div class="triangle"></div>
+<div class="evian"></div>
+<div class="evian1"></div>
+<div class="evian2"></div>
+<div class="evian3"></div>
+
+<div class="welcome">asdf</div>
 
 
 
 
 
 
-
-
-
-})
+</body>
+</html>
