@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/JavaScript" src="list.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style copy.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+	<title>lab project</title>
+    </head>
+<style>
+        #home{
+                height:100%;
+                width:100%;
+                float:left;
+                font-size: 25px;
+                font-weight: bold;
+                text-align: center;
+                padding: 350px 0 0 0;
+                color: rgb(255, 255, 255);
+                line-height: 1.7em;
+                font-family: 'Heebo', sans-serif;
+                -webkit-animation-timing-function: linear;
+        position: relative;
+  -webkit-animation-name: home-example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: home-example;
+  animation-duration: 4s;
+
+
+        }
+        @-webkit-keyframes home-example {
+  from {color: transparent;}
+  to {color: rgba(228,114,179,0.9290091036414566);}
+  to {color: rgba(19,100,214,1);}
+  to {color: rgba(190,198,237,1);}
+  to {color:white;}
+
+}
+
+       #moving{ 
+                float:left;
+                font-size: 25px;
+                font-weight: bold;
+                margin: 0px 0 0 0;
+                padding: 700px 0 0 0;
+                height:50%;
+                width:100%;
+                text-align: center;
+                color:transparent;
+                font-family: 'Heebo', sans-serif;
+        -webkit-animation-timing-function: linear;
+        position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 70s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 70s;
+  z-index: 100;
+        }
+
+        @-webkit-keyframes example {
+  from {color: transparent;}
+  to {color: rgb(255, 255, 255);}
+  to {color: rgb(255, 255, 255);}
+  to {color: rgb(255, 255, 255);}
+  to {color: rgb(255, 255, 255);}
+}
+
+        #home span{
+                color: rgb(227, 254, 219);
+                -webkit-animation-timing-function: linear;
+        position: relative;
+  -webkit-animation-name: home-example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: home-example;
+  animation-duration: 4s;
+
+        }
+        #home span:hover{
+                text-decoration: none;
+        }
+        #year{
+                color: rgb(255, 255, 255);
+                font-weight:lighter;
+                font-size: 18px;
+                -webkit-animation-timing-function: linear;
+        position: relative;
+  -webkit-animation-name: home-example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: home-example;
+  animation-duration: 4s;
+
+
+        }
+
+
+
+
+</style>
+
+    <body>
+      <div class="title">  <div id="home">a collection of <span>random</span> things i have received<div id="year">2015 - 2019</div></div></div>
+
+
+      <div id="moving">Click on imgs to find out more about each object.</div>
+
+
+    <div id="hacker-list">
+      <div id="sortby">Sort By:</div>
+            <span class="sort" data-sort="late1"><div id="names">Lastest arrivals</div></span>
+            <span class="sort" data-sort="trend1"><div id="names">Trending</div></span>
+            <span class="sort" data-sort="price1"><div id="names">Price</div></span>
+            <span class="sort" data-sort="hue1"><div id="names">Hue / Satuation</div></span>
+            <span class="sort" data-sort="abc1"><div id="names">Alphabet</div></span>
+
+        <ul class="list">
+
+                <li class="thumb" >
+                        <img src="imgs/rose.jpg">
+                        <p class="late1">1</p>
+                        <p class="trend1">6</p>
+                        <p class="price1">15</p>
+                        <p class="hue1">26</p>
+                        <p class="abc1">22</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:22px 80px 0 1000px;width:200px;">2019 pink roses from Olivia after my recovery from sickness</h1>
+
+                                <p class="late1">1</p>
+                                <p class="trend1">6</p>
+                                <p class="price1">15</p>
+                                <p class="hue1">26</p>
+                                <p class="abc1">22</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/peanut crackers.jpg">
+                        <p class="late1">2</p>
+                        <p class="trend1">19</p>
+                        <p class="price1">6</p>
+                        <p class="hue1">11</p>
+                        <p class="abc1">20</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:660px 80px 0 63px;width:360px;">2019 my dad brought it all the way from China, issa my favorite peanut crackers you can only get from my lil town</h1>
+
+                                <p class="late1">2</p>
+                                <p class="trend1">19</p>
+                                <p class="price1">6</p>
+                                <p class="hue1">11</p>
+                                <p class="abc1">20</p>
+        
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/rock.jpg">
+                        <p class="late1">3</p>
+                        <p class="trend1">21</p>
+                        <p class="price1">23</p>
+                        <p class="hue1">5</p>
+                        <p class="abc1">21</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:602px 80px 0 -63px;width:580px;">404 Error - Content Not Found</h1>
+
+                                <p class="late1">3</p>
+                                <p class="trend1">21</p>
+                                <p class="price1">23</p>
+                                <p class="hue1">5</p>
+                                <p class="abc1">21</p>
+        
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/simpsons.jpg">
+                        <p class="late1">4</p>
+                        <p class="trend1">10</p>
+                        <p class="price1">25</p>
+                        <p class="hue1">20</p>
+                        <p class="abc1">23</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:600px 80px 0 -60px;width:580px;">404 Error - Content Not Found</h1>
+                                <p class="late1">4</p>
+                                <p class="trend1">10</p>
+                                <p class="price1">25</p>
+                                <p class="hue1">20</p>
+                                <p class="abc1">23</p>
+        
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/booklet.jpg">
+                        <p class="late1">5</p>
+                        <p class="trend1">23</p>
+                        <p class="price1">28</p>
+                        <p class="hue1">23</p>
+                        <p class="abc1">3</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:160px 80px 0 980px;width:580px;">404 Error - Content Not Found</h1>
+
+                                <p class="late1">5</p>
+                                <p class="trend1">23</p>
+                                <p class="price1">28</p>
+                                <p class="hue1">23</p>
+                                <p class="abc1">3</p>
+        
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/astroworld.jpg">
+                        <p class="late1">6</p>
+                        <p class="trend1">25</p>
+                        <p class="price1">11</p>
+                        <p class="hue1">25</p>
+                        <p class="abc1">2</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:-45px 80px 0 720px;width:580px;">2019 jimmy gave me one of the Travis Scott Astroworld $100 Dollar Bill as a gift how sweet of him</h1>
+
+                                <p class="late1">6</p>
+                                <p class="trend1">25</p>
+                                <p class="price1">11</p>
+                                <p class="hue1">25</p>
+                                <p class="abc1">2</p>
+        
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/boot.jpg">
+                        <p class="late1">7</p>
+                        <p class="trend1">17</p>
+                        <p class="price1">9</p>
+                        <p class="hue1">4</p>
+                        <p class="abc1">4</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:360px 80px 0 1000px;width:580px;">2019 lil treat for myself</h1>
+
+                                <p class="late1">7</p>
+                                <p class="trend1">17</p>
+                                <p class="price1">9</p>
+                                <p class="hue1">4</p>
+                                <p class="abc1">4</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/cream.jpg">
+                        <p class="late1">8</p>
+                        <p class="trend1">20</p>
+                        <p class="price1">10</p>
+                        <p class="hue1">17</p>
+                        <p class="abc1">11</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:333px 80px 0 -80px;width:580px;">2019 local face cream brought all the way from thousands of miles away, town where my parents was raised</h1>
+                                <p class="late1">8</p>
+                                <p class="trend1">20</p>
+                                <p class="price1">10</p>
+                                <p class="hue1">17</p>
+                                <p class="abc1">11</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/ash.jpg">
+                        <p class="late1">9</p>
+                        <p class="trend1">26</p>
+                        <p class="price1">24</p>
+                        <p class="hue1">6</p>
+                        <p class="abc1">1</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:480px 80px 0 980px;width:580px;">2018 DIYed ash try</h1>
+
+                                <p class="late1">9</p>
+                                <p class="trend1">26</p>
+                                <p class="price1">24</p>
+                                <p class="hue1">6</p>
+                                <p class="abc1">1</p>
+        
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/chengcheng.jpg">
+                        <p class="late1">10</p>
+                        <p class="trend1">24</p>
+                        <p class="price1">17</p>
+                        <p class="hue1">28</p>
+                        <p class="abc1">7</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:360px 80px 0 140px;width:580px;">2018 Chengcheng gave me a patch because he loves me jk idk why hes just such a nice friend</h1>
+                                <p class="late1">10</p>
+                                <p class="trend1">24</p>
+                                <p class="price1">17</p>
+                                <p class="hue1">28</p>
+                                <p class="abc1">7</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/hair.jpg">
+                        <p class="late1">11</p>
+                        <p class="trend1">28</p>
+                        <p class="price1">8</p>
+                        <p class="hue1">13</p>
+                        <p class="abc1">17</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:520px 80px 0 720px;width:580px;">2018 chopped my hair off myself shortly after my 20th birthday reason remains a secret</h1>
+                                <p class="late1">11</p>
+                                <p class="trend1">28</p>
+                                <p class="price1">8</p>
+                                <p class="hue1">13</p>
+                                <p class="abc1">17</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/wood incense.jpg">
+                        <p class="late1">12</p>
+                        <p class="trend1">13</p>
+                        <p class="price1">20</p>
+                        <p class="hue1">14</p>
+                        <p class="abc1">27</p>
+
+                </li>
+                <div class="popup">
+                          <h1 style="margin:-60px 80px 0 -90px;width:580px;">2018 incense from Minna as my birthday gifts, also as housewarming gifts LOL typical Minna</h1>
+
+                                <p class="late1">12</p>
+                                <p class="trend1">13</p>
+                                <p class="price1">20</p>
+                                <p class="hue1">14</p>
+                                <p class="abc1">27</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/ceremics.jpg">
+                        <p class="late1">13</p>
+                        <p class="trend1">12</p>
+                        <p class="price1">19</p>
+                        <p class="hue1">12</p>
+                        <p class="abc1">6</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:-50px 80px 0 -120px;width:580px;">2018 bowls from Minna as my birthday gifts, also as housewarming gifts LOL typical Minna</h1>
+
+                                <p class="late1">13</p>
+                                <p class="trend1">12</p>
+                                <p class="price1">19</p>
+                                <p class="hue1">12</p>
+                                <p class="abc1">6</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/george.jpg">
+                        <p class="late1">14</p>
+                        <p class="trend1">8</p>
+                        <p class="price1">3</p>
+                        <p class="hue1">7</p>
+                        <p class="abc1">15</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:160px 80px 0 -120px;width:580px;">2018 a stuffed animal from IKEA, MY CRUSH GAVE ME FOR MY BIRTHDAY, fun fact he said he didnt have time to get me a gift so he just grabbed the first thing that he sees as he was heading out for the dinner</h1>
+
+                                <p class="late1">14</p>
+                                <p class="trend1">8</p>
+                                <p class="price1">3</p>
+                                <p class="hue1">7</p>
+                                <p class="abc1">15</p>
+        
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/snakeskin.jpg">
+                        <p class="late1">15</p>
+                        <p class="trend1">9</p>
+                        <p class="price1">2</p>
+                        <p class="hue1">15</p>
+                        <p class="abc1">24</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:480px 80px 0 -120px;width:580px;">2018 a cardholder as a birthdady gift from Regina, I love the snakeskin and everything but I havent used it once I think because I can't get over my current one</h1>
+                                <p class="late1">15</p>
+                                <p class="trend1">9</p>
+                                <p class="price1">2</p>
+                                <p class="hue1">15</p>
+                                <p class="abc1">24</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/umbrella.jpg">
+                        <p class="late1">16</p>
+                        <p class="trend1">22</p>
+                        <p class="price1">26</p>
+                        <p class="hue1">2</p>
+                        <p class="abc1">26</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:650px 80px 0 610px;width:600px;">2018 An umbrella from an anonymous friend, I stopped by his apt a night after my Creative Computing class and it started raining so he just gave me his and told me to keep it</h1>
+                                <p class="late1">16</p>
+                                <p class="trend1">22</p>
+                                <p class="price1">26</p>
+                                <p class="hue1">2</p>
+                                <p class="abc1">26</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/chowdan.jpg">
+                        <p class="late1">17</p>
+                        <p class="trend1">7</p>
+                        <p class="price1">14</p>
+                        <p class="hue1">18</p>
+                        <p class="abc1">9</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:7px 80px 0 580px;width:600px;">2018 a lil stuffed pacman that Regina won from a claw machine, she was so disappointed that its not the one she wanted and named it ugly</h1>
+                                <p class="late1">17</p>
+                                <p class="trend1">7</p>
+                                <p class="price1">14</p>
+                                <p class="hue1">18</p>
+                                <p class="abc1">9</p>
+        
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/spongebob.jpg">
+                        <p class="late1">18</p>
+                        <p class="trend1">18</p>
+                        <p class="price1">22</p>
+                        <p class="hue1">21</p>
+                        <p class="abc1">25</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:344px 80px 0 410px;width:700px;">2018 a random sticker of SpongeBob</h1>
+                                <p class="late1">18</p>
+                                <p class="trend1">18</p>
+                                <p class="price1">22</p>
+                                <p class="hue1">21</p>
+                                <p class="abc1">25</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/evan.jpg">
+                        <p class="late1">19</p>
+                        <p class="trend1">14</p>
+                        <p class="price1">16</p>
+                        <p class="hue1">24</p>
+                        <p class="abc1">13</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:205px 70px 0 100px;width:700px;">2018 a Kandi bracelet made by Evan, a friend from highschool</h1>
+                                <p class="late1">19</p>
+                                <p class="trend1">14</p>
+                                <p class="price1">16</p>
+                                <p class="hue1">24</p>
+                                <p class="abc1">13</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/contacts.jpg">
+                        <p class="late1">20</p>
+                        <p class="trend1">27</p>
+                        <p class="price1">5</p>
+                        <p class="hue1">22</p>
+                        <p class="abc1">10</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:505px 70px 0 200px;width:700px;">2018 dried up contact lenses, I started collecting my daily contact lenses one day out of blue, and been doing so since, it's taking forever to fill up the bottle because I am never home yikes</h1>
+                                <p class="late1">20</p>
+                                <p class="trend1">27</p>
+                                <p class="price1">5</p>
+                                <p class="hue1">22</p>
+                                <p class="abc1">10</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/necklace.jpg">
+                        <p class="late1">21</p>
+                        <p class="trend1">1</p>
+                        <p class="price1">1</p>
+                        <p class="hue1">8</p>
+                        <p class="abc1">19</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:325px 70px 0 660px;width:420px;">2017 necklace from Tiffany as my I think 18th birthday gift, she lied to me saying that she wasn't going to come to my birthday party but end up surprising me bitch play too much</h1>
+                                <p class="late1">21</p>
+                                <p class="trend1">1</p>
+                                <p class="price1">1</p>
+                                <p class="hue1">8</p>
+                                <p class="abc1">19</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/lipgloss.jpg">
+                        <p class="late1">22</p>
+                        <p class="trend1">2</p>
+                        <p class="price1">18</p>
+                        <p class="hue1">27</p>
+                        <p class="abc1">18</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:169px 70px 0 450px;width:480px;">2016 lipstick from Chelsea as a birthday gift, my very first gift from my future sister-in-law LOL took me awhile to accept the fact that Steven is going to get married one day</h1>
+                                <p class="late1">22</p>
+                                <p class="trend1">2</p>
+                                <p class="price1">18</p>
+                                <p class="hue1">27</p>
+                                <p class="abc1">18</p>
+
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/earrings.jpg">
+                        <p class="late1">23</p>
+                        <p class="trend1">Stockholm</p>
+                        <p class="price1">12</p>
+                        <p class="hue1">9</p>
+                        <p class="abc1">12</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:43px 70px 0 -40px;">2016 an earring I took from Tiffany, it was one of those moments when you just wanted to take all your friends shit</h1>
+                                <p class="late1">23</p>
+                                <p class="trend1">Stockholm</p>
+                                <p class="price1">12</p>
+                                <p class="hue1">9</p>
+                                <p class="abc1">12</p>
+        
+                        </div>
+
+                <li class="thumb" >
+                        <img src="imgs/yu.jpg">
+                        <p class="late1">24</p>
+                        <p class="trend1">3</p>
+                        <p class="price1">27</p>
+                        <p class="hue1">16</p>
+                        <p class="abc1">28</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:320px 70px 0 -20px;">2016 lipstick from a friend of mine who has now moved back to China forever</h1>
+                                <p class="late1">25</p>
+                                <p class="trend1">15</p>
+                                <p class="price1">4</p>
+                                <p class="hue1">1</p>
+                                <p class="abc1">8</p>
+                </div>
+        
+                <li class="thumb" >
+                        <img src="imgs/chicago1.jpg">
+                        <p class="late1">25</p>
+                        <p class="trend1">15</p>
+                        <p class="price1">4</p>
+                        <p class="hue1">1</p>
+                        <p class="abc1">8</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:17px 70px 0 80px;">2015 Chicago1, I spent a night on the street of Manhattan to get them for retail</h1>
+                                <p class="late1">25</p>
+                                <p class="trend1">15</p>
+                                <p class="price1">4</p>
+                                <p class="hue1">1</p>
+                                <p class="abc1">8</p>
+        
+                </div>
+                <li class="thumb" >
+                        <img src="imgs/gingerbread.jpg">
+                        <p class="late1">26</p>
+                        <p class="trend1">16</p>
+                        <p class="price1">13</p>
+                        <p class="hue1">3</p>
+                        <p class="abc1">16</p>
+
+                </li>
+                <div class="popup">
+                                <h1 style="margin:205px 70px 0 750px;">2015 gingerbread made by Tiffany for her ceremics class, bitch recently broke it, how ironic</h1>
+                                <p class="late1">26</p>
+                                <p class="trend1">16</p>
+                                <p class="price1">13</p>
+                                <p class="hue1">3</p>
+                                <p class="abc1">16</p>
+         
+                </div>
+                <li class="thumb" >
+                        <img src="imgs/bracelet.jpg">
+                        <p class="late1">27</p>
+                        <p class="trend1">4</p>
+                        <p class="price1">7</p>
+                        <p class="hue1">10</p>
+                        <p class="abc1">5</p>
+
+                </li>
+                <div class="popup">
+                        <h1 style="margin:480px 0 0 510px;">2015 bracelet from mom, have no idea where and when she got it</h1>
+                        <!-- <h1>2015 bracelet from mom</h1> -->
+                        <p class="late1">27</p>
+                        <p class="trend1">4</p>
+                        <p class="price1">7</p>
+                        <p class="hue1">10</p>
+                        <p class="abc1">5</p>
+                </div>
+                <li class="thumb" id="flash">
+                        <img src="imgs/flashdrive.jpg">
+                        <p class="late1">28</p>
+                        <p class="trend1">11</p>
+                        <p class="price1">22</p>
+                        <p class="hue1">19</p>
+                        <p class="abc1">14</p>
+
+                </li>
+                <div class="popup">
+                        <h1 style="margin:640px 0 0 -80px;">2015 flashdrive, got it for myself at the HongKong airport, I was lokwey obsessed with collecting flashdrives for no reason</h1>
+                        <p class="late1">28</p>
+                        <p class="trend1">11</p>
+                        <p class="price1">22</p>
+                        <p class="hue1">19</p>
+                        <p class="abc1">14</p>
+                        <div class="close-button"></div>
+                </div>
+
+
+
+    </div>
+
+    <!-- <div class="greentea" id="robot">
+
+        <img src="imgs/flashdrive.jpg"/>
+        <div id="text">2015<br>robot flash drive</div>
+
+    </div> -->
+
+
+
+
+    </body>
+    </html>
