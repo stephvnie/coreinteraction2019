@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/JavaScript" src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+
+
+	<title>final</title>
+    </head>
+
+    <style>
+      html,body{
+	width:100%;
+	height:110%;
+  margin:0;
+  font-family: 'Heebo', sans-serif;
+  /* background-color: black; */
+
+	
+
+}
+/* .webs img{
+  object-fit: cover;
+  border-radius: 7px;
+  width:200px;
+  height:200px;
+  padding: 0 0 0px 0;
+  margin:60px 10px 20px 60px;
+  position: relative;
+} */
+
+/* .webs{
+  float:left;
+  display:block;
+  width:100%;
+  height:50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+
+
+
+} */
+h1{
+  float:left;
+  color:black;
+  margin:-180px 30px 0 1140px;
+  font-size:12px;
+  position: absolute;
+  line-height: 4em;
+  overflow: hidden;
+
+
+}
+.headline{
+  float:left;
+  color:black;
+  font-size:25px;
+  font-weight: 300;
+  width:100%;
+  height:4%;
+  text-align: center;
+  margin: 50px 0 0 0;
+  position: relative;
+
+
+}
+#answer{
+  font-weight: 100;
+  float:center;
+  width: 50%;
+  height:auto;
+  text-align: center;
+  margin: 0 0 0 350px;
+  position: relative;
+
+
+
+}
+.title{
+  width:100%;
+  height:auto;
+  float:left;
+  text-align: center;
+  margin:65px 0 0 0;
+  font-size: 220px;
+  line-height: 0.8em;
+  font-weight: bolder;
+
+
+}
+#name{
+  width:100%;
+  height:auto;
+  float:left;
+  text-align: left;
+  margin:-535px 0px 0 280px;
+  font-size: 35px;
+  line-height: 1em;
+  font-weight: bolder;
+  color:rgb(0, 0, 0);
+
+
+}
+.trends{
+  position: relative;
+float: left;
+color:blue;
+font-size: 75px;
+font-weight: bolder;
+margin:200px 0 0 0;
+
+}
+.webs{
+  padding: 0 20px 20px 0;
+  margin: 560px 0 -230px 13px;
+}
+
+
+.flipone {
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-one-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipone:hover .flip-one-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-one-front, .flip-one-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-one-front {
+  background-color: black;
+  border-radius: 7px;
+
+}
+
+.flip-one-back {
+  transform: rotateY(180deg);
+}
+
+
+.fliptwo {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+
+}
+
+.flip-two-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.fliptwo:hover .flip-two-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-two-front, .flip-two-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-two-front {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.flip-two-back {
+  transform: rotateY(180deg);
+}
+
+
+.flipthree {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-three-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipthree:hover .flip-three-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-three-front, .flip-three-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-three-front {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.flip-three-back {
+  transform: rotateY(180deg);
+}
+
+
+
+.flipfour {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-four-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipfour:hover .flip-four-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-four-front, .flip-four-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-four-front {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.flip-four-back {
+  transform: rotateY(180deg);
+}
+
+
+.flipfive {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-five-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipfive:hover .flip-five-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-five-front, .flip-five-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-five-front {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.flip-five-back {
+  transform: rotateY(180deg);
+}
+
+.flipsix {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-six-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipsix:hover .flip-six-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-six-front, .flip-six-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-six-front {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.flip-six-back {
+  transform: rotateY(180deg);
+}
+
+
+.flipseven {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-seven-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipseven:hover .flip-seven-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-seven-front, .flip-seven-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-seven-front {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.flip-seven-back {
+  transform: rotateY(180deg);
+}
+
+.flipeight {
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-eight-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipeight:hover .flip-eight-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-eight-front, .flip-eight-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-eight-front {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.flip-eight-back {
+
+  transform: rotateY(180deg);
+}
+
+
+
+.flipnine{
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-nine-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipnine:hover .flip-nine-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-nine-front, .flip-nine-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-nine-front {
+  background-color: black;
+  border-radius: 7px;
+}
+
+.flip-nine-back {
+  transform: rotateY(180deg);
+}
+
+
+.flipten{
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  border:none;
+  perspective: 1000px;
+  float:left;
+}
+
+.flip-ten-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipten:hover .flip-ten-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-ten-front, .flip-ten-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-ten-front {
+  border-radius: 7px;
+  background-color: black;
+
+
+}
+
+.flip-ten-back {
+  transform: rotateY(180deg);
+}
+
+.webs{
+  padding: 0 20px 20px 0;
+  margin: 50px 0 -60px 13px;
+
+}
+img{
+ object-fit: cover;
+ border-radius: 7px;
+ width:250px;
+ height:250px;
+}
+
+h2{
+  float: left;
+  text-align: left;
+  padding: 40px 0 0 10px;
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  
+
+
+}
+
+.answer2{
+  font-weight: 100;
+  float:left;
+  width: 60%;
+  height:20%;
+  text-align: center;
+  margin: 200px 0 0 300px;
+  position: relative;
+
+
+
+}
+
+</style>
+
+
+<body>
+  <div class="title">      Research on Innovative Web Design Trends</div>
+  <div id="name">by Sabrina Hang & Stephanie Lin</div> 
+  <div class="headline">What Is Web Design</div><div id="answer">Web design encompasses many different skills and disciplines in the production and maintenance of websites. There are many different areas for web design, but we are mainly focusing on web graphic design. Web graphic design is a process of conceptualizing, planning, building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors...</div> 
+   <!-- <div class="trends">inclusive design</div> -->
+
+  <h1>Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends<br>
+      Research on Innovative Web Design Trends</h1>
+
+
+  <!-- <div class="webs">
+
+      <a href="http://mathis-biabiany.fr/"><img src="mathis.gif" alt="mathis" ></a>
+      <a href="https://www.new.company/  "><img src="new company.gif" alt="new" ></a>
+      <a href="http://cs.kenji-special.info/# "><img src="codesketch.gif" alt="code" ></a>   
+      <a href="https://canary---yellow.com/ "><img src="virgil.gif" alt="virgil" ></a>
+      <a href="http://taotajima.jp/"><img src="TAO TAJIMA.gif" alt="TAO" ></a>
+    <a href="https://wholefestival.com/"><img src="wholefes.gif" alt="fes" ></a>
+     <a href="https://threesixzero.com/"><img src="threesixzero.gif" alt="three" ></a>
+       <a href="http://annaeshwood.com/  "><img src="annaeshwood.gif" alt="anna" ></a>
+         <a href="https://alecsi.com/Work"><img src="Alexis.gif" alt="alexis" ></a>
+      <a href="https://www.balenciaga.com/us/ "><img src="balenciaga.gif" alt="balen" ></a>
+
+
+    
+  </div> -->
+
+  <div class="webs flipone">
+      <div class="flip-one-inner">
+        <div class="flip-one-front">
+          <h2>Flat Design</h2>
+        </div>
+    
+        <div class="flip-one-back">
+            <a href=" https://www.balenciaga.com/us/">
+              <img src="balenciaga.gif" >
+
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    
+    <div class=" webs fliptwo">
+      <div class="flip-two-inner">
+        <div class="flip-two-front">
+          <h2>Flat Design<br>Use of Organic Shapes<br>Animation</h2>
+
+        </div>
+    
+        <div class="flip-two-back">
+          <a href="http://annaeshwood.com/ ">
+    <img src="annaeshwood.gif" >
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    <div class=" webs flipthree">
+      <div class="flip-three-inner">
+        <div class="flip-three-front">
+          <h2>Animation<br></h2>
+        </div>
+    
+        <div class="flip-three-back">
+          <a href="http://cs.kenji-special.info/# ">
+    <img src="codesketch.gif">
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    <div class=" webs flipfour">
+      <div class="flip-four-inner">
+        <div class="flip-four-front">
+          <h2>Playful <br>Cursor Design & Animation<br></h2>
+        </div>
+    
+        <div class="flip-four-back">
+          <a href="https://www.new.company/  ">
+    <img src="new company.gif">
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    <div class=" webs flipfive">
+      <div class="flip-five-inner">
+        <div class="flip-five-front">
+          <h2>Animation<br>Too Much Motion</h2>
+        </div>
+    
+        <div class="flip-five-back">
+          <a href="http://taotajima.jp/">
+    <img src="TAO TAJIMA.gif">
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    
+    <div class=" webs flipsix">
+      <div class="flip-six-inner">
+        <div class="flip-six-front">
+          <h2>Broken Grid & <br>Asymmetrical Layouts<br>Flat Design</h2>
+        </div>
+    
+        <div class="flip-six-back">
+          <a href="https://threesixzero.com/">
+    <img src="zero.gif">
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    
+    <div class=" webs flipseven">
+      <div class="flip-seven-inner">
+        <div class="flip-seven-front">
+            <h2>Flat Design</h2>
+          </div>
+    
+        <div class="flip-seven-back">
+          <a href="https://canary---yellow.com/ ">
+    <img src="virgil.gif">
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    
+    <div class=" webs flipeight">
+      <div class="flip-eight-inner">
+        <div class="flip-eight-front">
+          <h2>Animation</h2>
+        </div>
+    
+        <div class="flip-eight-back">
+          <a href="https://alecsi.com/Work ">
+    <img src="Alexis.gif">
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    <div class=" webs flipnine">
+      <div class="flip-nine-inner">
+        <div class="flip-nine-front">
+          <h2>Use of Organic Shapes<br>Animation</h2>
+        </div>
+    
+        <div class="flip-nine-back">
+          <a href="http://mathis-biabiany.fr/">
+    <img src="mathis.gif">
+    </a ></div>
+      </div>
+    </div>
+    
+    
+    <div class=" webs flipten">
+      <div class="flip-ten-inner">
+        <div class="flip-ten-front">
+            <h2>Use of Organic Shapes<br>Broken Grid & <br>Asymmetrical Layouts</h2>
+          </div>
+    
+        <div class="flip-ten-back">
+          <a href="https://wholefestival.com/">
+    <img src="wholefes.gif">
+    </a ></div>
+      </div>
+    </div>
+
+    <div class="answer2">Most of the websites we have seen are mainly for corporate or commercial products, and there is a lot of space for creative website design.
+        The first step is obviously to accurately pass the functionality of the product to potential customers. And that  is the purpose of web design. Web design is one the most direct visual communication, so the core of web design lies in creative expression, visual typography and software skills.
+        <br>Visual + interaction = web design core 
+        </div>
+    
+
+
+
+
+
+</body>
+</html>
